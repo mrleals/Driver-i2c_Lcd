@@ -25,8 +25,18 @@ sudo apt-get install python-smbus
 i2cdetect -y 1
 ```
 # Programando o LCD 
-> Na sua raspberry crie um repositorio com o codigo disponibilizado [aqui]()
-com seguinte comando:
+### Com seguinte comando:
 ```shell
 sudo nano I2C_LCD_driver.py
 ```
+> Na sua raspberry crie um repositorio com o codigo disponibilizado [aqui](https://github.com/mrleals/Driver-i2c_Lcd/blob/8bf6711d8883edadf162531c6391230666f1da7d/I2C_LCD_driver.py)
+
+### Aperte a tecla Cntrl + S para salvar e logo apos Cntrl + X
+Agora crie e use sua imaginacao para escrever o que desejar em seu display
+esse primeiro comando usando:
+```shell
+sudo nano helloworld.py
+```
+> Use essa programacao [aqui]()
+
+Disponibilizarei outras programacoes para poder se divertir com seu display
