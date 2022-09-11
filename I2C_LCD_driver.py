@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# Original code found at:
-# https://gist.github.com/DenisFromHR/cc863375a6e19dce359d
 
 """
 Compiled, mashed and generally mutilated 2014-2015 by Denis Pleic
@@ -16,10 +14,10 @@ Made available under GNU GENERAL PUBLIC LICENSE
 """
 
 # i2c bus (0 -- original Pi, 1 -- Rev 2 Pi)
-I2CBUS = 0
+I2CBUS = 0 #Modelos mais novos de raspberry mantenha 0, para modelos mais antigos altere para 1
 
 # LCD Address
-ADDRESS = 0x27
+ADDRESS = 0x21 #Mude esse valor dependendo do endereço do seu LCD
 
 import smbus
 from time import sleep
