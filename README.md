@@ -17,7 +17,7 @@ get install i2c-tools
 ```
 ### instale os drivers do python com:
 ```shell
-sudo apt-get install python-smbus
+sudo apt-get install python3-smbus
 ```
 ### Digite o comando:
 > Para identificar o endereço central do seu LCD
